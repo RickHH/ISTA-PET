@@ -34,14 +34,14 @@ print('Load Data')
 
 
 # load H matrix
-H_matrix_path = '/home/hr/my_ista/7/H.mat' #H是系统矩阵
+H_matrix_path = '/home/hr/my_ista/7/H.mat' 
 H = sio.loadmat(H_matrix_path)['H'].T
 # load S
 Xtrue_path = '/home/hr/my_ista/7/X_train.mat'
-Xtrue = sio.loadmat(Xtrue_path)['X_train'].T#X是真值图像，也就是label 420*4096
+Xtrue = sio.loadmat(Xtrue_path)['X_train'].T
 
 Sinogram_path = '/home/hr/my_ista/7/S_train.mat'
-sinogram  = sio.loadmat(Sinogram_path)['S_train'].T #sinogram 420*4096
+sinogram  = sio.loadmat(Sinogram_path)['S_train'].T 
 
 
 
