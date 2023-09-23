@@ -1,2 +1,2 @@
 # ISTA-PET
-PET-reconstruction based on ISTA-net
+Tensorflow implementation for PET-reconstruction based on ISTA-net
